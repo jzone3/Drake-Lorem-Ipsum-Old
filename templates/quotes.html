@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Drake Lorem Ipsum{% endblock %}
+{% block content %}
+	<br>
+	{% for q in quotes %}
+	<div>{{q}}</div>
+	<hr>
+	{% endfor %}
+{% endblock %}
